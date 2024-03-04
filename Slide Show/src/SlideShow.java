@@ -120,15 +120,15 @@ public class SlideShow extends JFrame {
 	private String getResizeIcon(int i) {
 		String image = ""; 
 		if (i==1){
-			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("/resources/Hawaii.jpg") + "'</body></html>";
+			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("Hawaii.jpg") + "'</body></html>";
 		} else if (i==2){
-			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("/resources/Newzealand.jpg") + "'</body></html>";
+			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("Newzealand.jpg") + "'</body></html>";
 		} else if (i==3){
-			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("/resources/Alaska.jpg") + "'</body></html>";
+			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("Alaska.jpg") + "'</body></html>";
 		} else if (i==4){
-			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("/resources/Iceland.jpg") + "'</body></html>";
+			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("Iceland.jpg") + "'</body></html>";
 		} else if (i==5){
-			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("/resources/Prague.jpg") + "'</body></html>";
+			image = "<html><body><img width= '800' height='500' src='" + getClass().getResource("Prague.jpg") + "'</body></html>";
 		}
 		return image;
 	}
